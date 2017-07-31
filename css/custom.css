@@ -1,14 +1,36 @@
 body {
-    padding-top: 5rem;
-}
-.cy-header {
+  padding-top: 5rem; }
+  body .row {
+    margin-left: 15px;
+    margin-right: 15px; }
+  body .cy-header {
     padding: 3rem 1.5rem;
-    text-align: center;
-}
-#cy-dept {
+    text-align: center; }
+  body #cy-dept {
     margin: auto;
     text-align: center;
-}
-.cy-doctor {
+    max-width: 400px; }
+  body .cy-dept-doctor-list-header h1 {
+    color: #555555; }
+    body .cy-dept-doctor-list-header h1 .cy-today {
+      font-size: 24px;
+      color: #aaaaaa; }
+  body .cy-dept-doctor-list-header h3 {
+    color: #222222; }
+  body .cy-doctor {
     text-align: center;
-}
+    padding: 10px; }
+    body .cy-doctor a {
+      text-decoration: none; }
+    body .cy-doctor img {
+      max-width: 200px;
+      margin: auto; }
+    body .cy-doctor th {
+      text-align: center;
+      font-weight: bold; }
+    body .cy-doctor td {
+      text-align: center; }
+    body .cy-doctor td {
+      text-align: center; }
+
+/*# sourceMappingURL=custom.css.map */
