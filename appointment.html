@@ -61,11 +61,14 @@
 
 <div class="container">
 
+
     <div class="cy-header">
         <h1>门诊预约 Demo</h1>
         <p class="lead">请点击您想预约的科室和专家，<br>选择可预订的时间段进行预约。</p>
+        <h3>预约日期 <span class="cy-today"></span></h3>
     </div>
 
+    <!--
     <div class="row">
         <div id="cy-dept">
             <div class="form-group">
@@ -77,6 +80,7 @@
             </div>
         </div>
     </div>
+    -->
 
 
     <div class="row">
@@ -95,10 +99,12 @@
     </div>
 
     <div class="cy-dept-doctor-list row" id="cy-pediatrics">
-        <div class="cy-dept-doctor-list-header">
-            <h1><i class="fa fa-bed" aria-hidden="true"></i> 儿科 <span class="cy-today"></span></h1>
+        <div class="cy-dept-doctor-list-header" >
+            <h1><a href="#cy-pediatrics-doctor-list" data-toggle="collapse">
+                <i class="fa fa-bed" aria-hidden="true"></i> 儿科 <span class="cy-doctor-number">出诊医生3位</span>
+            </a></h1>
         </div>
-        <div class="cy-dept-doctor-list-context">
+        <div class="cy-dept-doctor-list-context collapse" id="cy-pediatrics-doctor-list">
             <div class="col-md-6 col-lg-4">
                 <div class="cy-doctor">
                     <img class="img-responsive img-circle" src="img/doctor_a.jpg" alt="">
@@ -260,9 +266,11 @@
 
     <div class="cy-dept-doctor-list row" id="cy-gynaecology">
         <div class="cy-dept-doctor-list-header">
-            <h1><i class="fa fa-bed" aria-hidden="true"></i> 妇科 <span class="cy-today"></span></h1>
+            <h1><a href="#cy-gynaecology-doctor-list" data-toggle="collapse">
+                <i class="fa fa-bed" aria-hidden="true"></i> 妇科 <span class="cy-doctor-number">出诊医生5位</span>
+            </a></h1>
         </div>
-        <div class="cy-dept-doctor-list-context">
+        <div class="cy-dept-doctor-list-context collapse" id="cy-gynaecology-doctor-list">
             <div class="col-md-6 col-lg-4">
                 <div class="cy-doctor">
                     <img class="img-responsive img-circle" src="img/doctor_a.jpg" alt="">

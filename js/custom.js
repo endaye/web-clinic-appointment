@@ -4,8 +4,8 @@ $().ready(function () {
     var month = today.getMonth() + 1;
     var dates = today.getDate();
     $(".cy-today").html(year + "年" + month+"月"+dates+"日");
-    $(".cy-dept-doctor-list").hide();
-
+    // $(".cy-dept-doctor-list").hide();
+    /*
     $("#cy-dept-select").change(function () {
         var value = $("#cy-dept-select option:selected").val();
         var dept = "";
@@ -25,4 +25,5 @@ $().ready(function () {
             $("#"+dept).show();
         }
     })
+    */
 });

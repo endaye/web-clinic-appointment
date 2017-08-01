@@ -6,15 +6,19 @@ body {
   body .cy-header {
     padding: 3rem 1.5rem;
     text-align: center; }
+    body .cy-header h3 {
+      color: #888888; }
   body #cy-dept {
     margin: auto;
     text-align: center;
     max-width: 400px; }
   body .cy-dept-doctor-list-header h1 {
     color: #555555; }
-    body .cy-dept-doctor-list-header h1 .cy-today {
-      font-size: 24px;
-      color: #aaaaaa; }
+    body .cy-dept-doctor-list-header h1 a {
+      text-decoration: none; }
+      body .cy-dept-doctor-list-header h1 a .cy-doctor-number {
+        color: #888888;
+        font-size: 24px; }
   body .cy-dept-doctor-list-header h3 {
     color: #222222; }
   body .cy-doctor {
