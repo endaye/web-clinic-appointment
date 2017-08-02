@@ -4,6 +4,7 @@ $().ready(function () {
     var month = today.getMonth() + 1;
     var dates = today.getDate();
     $(".cy-today").html(year + "年" + month+"月"+dates+"日");
+    $(".cy-year").html(year);
     // $(".cy-dept-doctor-list").hide();
     /*
     $("#cy-dept-select").change(function () {
